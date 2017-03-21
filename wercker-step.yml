@@ -1,0 +1,31 @@
+name: slack-notifier
+version: 0.0.1
+description: Sends notifications to Slack
+keywords:
+  - notification
+  - slack
+properties:
+  url:
+    type: string
+    required: true
+  channel:
+    type: string
+    required: true
+  username:
+    type: string
+    required: false
+  icon_url:
+    type: string
+    required: false
+  icon_emoji:
+    type: string
+    required: false
+  passed_message:
+    type: string
+    required: false
+  failed_message:
+    type: string
+    required: false
+  branch:
+    type: string
+    required: false
